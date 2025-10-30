@@ -1,0 +1,11 @@
+/* Estilo para que todas las imágenes de las tarjetas tengan la misma altura */
+.card-img-top {
+  width: 100%;
+  height: 200px; /* Define una altura fija */
+  object-fit: cover; /* Hace que la imagen cubra el espacio sin deformarse */
+}
+
+/* Un pequeño ajuste para los filtros */
+#filtros-categorias .nav-link {
+  cursor: pointer;
+}
